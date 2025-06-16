@@ -1,11 +1,9 @@
+import './footer.css';
 function Footer(){
     return(
         <div className="footer">
             <p>
-                Copyright @ 2025  MentorMe, All rights reserved.
-                Customer Service
-                Terms & Conditions
-                Privacy Policy
+                Copyright @ 2025  MenteeGo, All rights reserved. Customer Service Terms & Conditions Privacy Policy
             </p>
         </div>
     )
