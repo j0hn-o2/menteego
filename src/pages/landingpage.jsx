@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import image1 from '../assets/image-1.png'; // Adjust the path as necessary
 import './landingpage.css'; // Assuming you have a CSS file for styling
 
 function LandingPage() {
@@ -15,7 +16,7 @@ function LandingPage() {
                     <button>Create Account</button>
                 </div>
                 <div className="section1-image">
-                    <img src="src/assets/image-1.png" alt="Image" />
+                    <img src={image1} alt="Image" />
                 
                 </div>
 
@@ -28,7 +29,7 @@ function LandingPage() {
 
                 <div className="section2-feature1">
                     <div className="section2-image">
-                        <img src="src/assets/image-1.png" alt="" />
+                        <img src={image1} alt="Image" />       
                     </div>
 
                     <div className="section2-feature1-text">
@@ -53,13 +54,15 @@ function LandingPage() {
                     </div>
                 
                     <div className="section2-image">
-                        <img src="src/assets/image-1.png" alt="" />
+                        <img src={image1} alt="Image" />
+
                     </div>
                 </div>
 
                 <div className="section2-feature3">
                     <div className="section2-image">
-                        <img src="src/assets/image-1.png" alt="" />
+                        <img src={image1} alt="Image" />
+
                     </div>
 
                 <div className="section2-feature3-text">
