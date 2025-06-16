@@ -3,7 +3,6 @@
     flex-direction: column;
     padding: 20px;
     align-items: center;
-    
     /* justify-content: center; */
     /* height: 100vh; */
     /* background-color: #f0f0f0; */
@@ -18,7 +17,7 @@
     flex-direction: row;
     /* justify-content: space-between; */
     gap: 20px;
-    padding: 20px;
+    /* padding: 20px; */
 
     /* flex-wrap: wrap; */
     align-items: center;
@@ -28,7 +27,7 @@
 
 .section1-text{
     flex: 2;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .section1-image{
@@ -53,11 +52,33 @@ img {
     padding: 20px;
 }
 
+
 .section2-feature1, .section2-feature3, .section2-feature2{
     display: flex;
     align-items: center;
     padding: 20px;
     gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #3a3939;
+}
+
+.section2-features{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* 0.6 = 60% darkness */
+  z-index: 1;
 }
 
 .section2-feature1-text, .section2-feature2-text,.section2-feature3-text{
@@ -66,4 +87,57 @@ img {
 
 .section2-image{
     flex:1
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 20px;
+}
+.section3-header{
+    text-align: center;
+    padding: 20px;
+}
+.section3-reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section3-review1{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid #3a3939;
+}
+
+.review-profile{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.review-text{
+    flex: 1;
+}
+
+.review-image{
+    flex: 1 ;
+}
+
+.review-name{
+    flex: 2;
+
 }
