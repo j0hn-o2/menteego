@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './landingPage.css'; // Assuming you have a CSS file for styling
+import './landingpage.css'; // Assuming you have a CSS file for styling
 
 function LandingPage() {
   return (
