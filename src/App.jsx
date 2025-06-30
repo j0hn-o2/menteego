@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Navbar from './components/navbar.jsx'; // Adjust the path as necessary
-import LandingPage  from './pages/landingpage.jsx';
+import LandingPage  from './pages/landingPage.jsx'
 import Footer from './components/footer.jsx';
 import About from './pages/about.jsx';
 import SelectUserType from './pages/selectusertype.jsx';
