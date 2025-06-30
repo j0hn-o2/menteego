@@ -5,11 +5,13 @@ import './navbar.css'; // Assuming you have a CSS file for styling
 function Navbar(){
     return(
         <nav className="navbar">
-            <h1>MenteeGo</h1>
+            <div className="navbar-content">
+            <h1>menteeGo</h1>
             <div className="nav-links">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/login">Login</Link>
+            </div>
             </div>
             
         </nav>
